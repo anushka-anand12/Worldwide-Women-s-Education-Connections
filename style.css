@@ -1,0 +1,264 @@
+.title{
+  margin: 3%;
+  font-family: Taviraj;
+  font-size: 40px;
+  color: #0A2342;
+  text-shadow: 3px 3px 6px #8678CE;
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.bios{
+  font-family: Lato;
+  font-size: 15px;
+  background-color: rgb(201, 177, 245);
+  color: #0A2342;
+  height: 180px;
+  padding: 2%;
+  width: 40%;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+.home-button{
+  background-color: #D14081;
+  color: #0A2342;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 2px solid #0A2342;
+  white-space: nowrap;
+  font-family: Lato;
+  cursor: pointer;
+}
+
+.home-button:hover{
+  background-color: aquamarine;
+  
+}
+
+
+.gif{
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.text{
+  margin-top: 0;
+  font-family: Lato;
+  color: #0A2342;
+  font-size: 25px;
+  /* background-color: rgb(201, 177, 245); */
+  margin-left: 3%;
+  /* height: 100px; */
+  padding: 2%;
+  width: 90%;
+}
+
+
+.submitt-button{
+  background-color: #D14081;
+  color: #0A2342;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid #0A2342;
+  white-space: nowrap;
+  font-family: Lato;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.submitt-button:hover{
+  background-color: aquamarine;
+}
+
+.jess{
+  object-fit: cover;
+  height: 200px;
+  width: 150px;
+}
+
+.welcome{
+  font-family: Taviraj;
+  font-size: 40px;
+   text-shadow: 3px 3px 6px #8678CE;
+}
+
+.resources-heading{
+  font-family: Taviraj;
+  font-size: 40px;
+   text-shadow: 3px 3px 6px #8678CE;
+   margin-left: 3%;
+   margin-bottom: 0;
+}
+
+.resource-subtext{
+  margin-top: 0;
+  font-family: Lato;
+  color: #0A2342;
+  font-size: 25px;
+  background-color: rgb(201, 177, 245);
+  margin-left: 3%;
+  height: 100px;
+  padding: 2%;
+  width: 80%;
+}
+
+.donateForm{
+  /* margin-left: 3%; */
+  font-family: Lato;
+  font-size: 20px;
+  color: #0A2342;
+  }
+
+.meet-us{
+  display: flex;
+  align-items: flex-end;
+  font-family: Taviraj;
+  flex-wrap: column;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 3%;
+
+}
+
+.meet-us-text {
+  text-align: right;
+  width: 100%;
+  margin-right: 3%;
+  text-shadow: 3px 3px 6px #8678CE;
+}
+
+/* also eventually i will have pics in that section and i want them on the right side too under the meet us text, but i did not add them in yet */
+.main{
+  display: flex;
+  flex-direction: row;
+} 
+
+.intro-body{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 3%;
+  background-color: rgb(201, 177, 245);
+  font-family: Lato;
+  color: #0A2342;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 80%;
+
+}
+
+ body{
+   background-color: rgba(10, 206, 255, 0.76);
+ }  
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}  
+
+.personPic {
+object-fit: cover;
+height:400px;
+width: 400px;
+padding: 4%;
+margin: 4%;
+border-radius: 50px;
+} 
+ 
+
+.resources-one {
+text-align: center;
+font-family: Taviraj;
+font-size: 40px;
+text-shadow: 3px 3px 6px #8678CE;
+background-color: rgb(201, 177, 245);
+}  
+
+.e-resources{
+font-family: Taviraj;
+font-size: 40px;
+text-shadow: 3px 3px 6px #8678CE;
+margin-left: 3%;
+padding: 2%;
+width: 90%;
+}
+
+.d-resources{
+font-family: Taviraj;
+font-size: 40px;
+text-shadow: 3px 3px 6px #8678CE;
+margin-left: 3%;
+padding: 2%;
+width: 90%;
+}
+
+.email-button{
+text-decoration:none; 
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+color: black;
+border: 2px solid #F5FFFA;
+padding: 10px 16px;
+background-color: rgb(201, 177, 245);
+margin-left: 170px;
+border-radius: 10px;
+transition-duration: 0.4s;
+}
+
+.email-button:hover {
+background-color: #b9936c;
+color: white;
+}
+
+.one{
+  display: flex;
+  wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.bruh{
+  display: flex;
+  wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.yuh{
+  object-fit: cover;
+  height: 354px;
+  width: 400px;
+}
+
+.learn-gifs{
+  object-fit: cover;
+  height: 200px;
+  width: 300px;
+}
+.donationForm{
+color: white;
+font-weight: bold;
+font-family: Taviraj;
+background-color: rgb(201, 177, 245);
+text-align:center;
+background-image: url("https://borgenproject.org/wp-content/uploads/Improving_Womens_Education-530x354.jpg");
+width: 530px;
+height: 354px;
+flex-flow: space-evenly; 
+margin-left: 5%;
+}
